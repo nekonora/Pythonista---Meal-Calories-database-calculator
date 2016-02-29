@@ -1,0 +1,146 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {914, 535}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{10, 10}, {399, 40}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Type food",
+          "name" : "_searchField",
+          "frame" : "{{150, 234}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B79972F4-97FF-49C9-8FAE-17F1A5D9E946",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{10, 58}, {480, 313}}",
+        "class" : "TableView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "47F4ACF9-A7FD-4354-B6B6-21CA80E7F2DD",
+          "editing" : false,
+          "data_source_action" : "cell_pressed",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{150, 150}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 0,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "data_source_accessory_action" : "",
+          "class" : "TableView",
+          "name" : "_foodListView",
+          "flex" : "WH"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{414, 10}, {76, 40}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "search_tapped",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "title" : "Search",
+          "class" : "Button",
+          "uuid" : "DD176D5D-9653-4983-BC14-59415721B756",
+          "font_size" : 15,
+          "name" : "_searchButton"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{102, 489}, {80, 40}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_cal",
+          "frame" : "{{417, 252}, {80, 32}}",
+          "title" : "Calculate",
+          "class" : "Button",
+          "uuid" : "D9AD299A-96CD-4290-B218-BCBF8F02C1D2",
+          "font_size" : 15,
+          "name" : "_calculateButton"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{360, 430}, {80, 40}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "add_100cal",
+          "frame" : "{{417, 252}, {80, 32}}",
+          "title" : "Add",
+          "class" : "Button",
+          "uuid" : "07D6FAB6-98A1-44BF-B5A6-E97A5817079E",
+          "font_size" : 15,
+          "name" : "button1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{360, 460}, {80, 40}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "add_customCal",
+          "frame" : "{{417, 252}, {80, 32}}",
+          "title" : "Add",
+          "class" : "Button",
+          "uuid" : "551CAA7C-6AB9-4D98-88E8-FAA2983E1652",
+          "font_size" : 15,
+          "name" : "button2"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{828, 496}, {80, 33}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "reset_button",
+          "frame" : "{{417, 252}, {80, 32}}",
+          "title" : "Reset",
+          "class" : "Button",
+          "uuid" : "9814EF1C-FAFA-4027-A257-B02896F31798",
+          "font_size" : 15,
+          "name" : "button3"
+        }
+      }
+    ],
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
